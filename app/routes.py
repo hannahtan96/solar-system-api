@@ -97,3 +97,5 @@ def delete_planet(planet_id):
     db.session.commit()
     
     return jsonify({'msg': f'Planet {planet.name} successfully deleted'})
+
+    
