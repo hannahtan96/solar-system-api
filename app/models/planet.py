@@ -5,5 +5,11 @@ class Planet(db.Model):
     name = db.Column(db.String)
     description = db.Column(db.String)
     distance_from_sun = db.Column(db.Integer)
-    
 
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "description": self.description,
+            "distance from sun (in millions of mi)": self.distance_from_sun
+        } 
