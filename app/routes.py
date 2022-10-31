@@ -1,7 +1,7 @@
 from flask import Blueprint, jsonify, abort, make_response, request
 from app import db
 from app.models.planet import Planet
-
+# comment
 # class Planet:
 #     def __init__(self, id, name, description, distance_from_sun):
 #         self.id = id
