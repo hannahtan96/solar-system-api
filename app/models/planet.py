@@ -11,5 +11,5 @@ class Planet(db.Model):
             "id": self.id,
             "name": self.name,
             "description": self.description,
-            "distance from sun (in millions of mi)": self.distance_from_sun
+            "distance_from_sun": self.distance_from_sun
         } 
